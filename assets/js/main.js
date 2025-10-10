@@ -96,7 +96,7 @@
   if (selectTyped) {
     let typed_strings = selectTyped.getAttribute('data-typed-items');
     typed_strings = typed_strings.split(',');
-    new typed('.typed', {
+    new Typed('.typed', {
       strings: typed_strings,
       loop: true,
       typeSpeed: 100,
